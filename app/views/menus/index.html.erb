@@ -1,2 +1,24 @@
-<h1>Menus#index</h1>
-<p>Find me in app/views/menus/index.html.erb</p>
+<header class='top-page-header'>
+   <h1>original</h1>
+   <div class='search-bar-contents'>
+    <form class="search-form" action="#">
+      <input class='input-box' placeholder='キーワードから探す'>
+      <button class="search-button"></button>
+    </form>
+   </div>
+
+   <ul class='lists-right'>
+      <li><%= link_to "nikename", "#", class: "user-nickname" %></li> 
+      <li><%= link_to 'ログアウト', class: "logout" %></li> 
+     
+      <li><%= link_to 'ログイン', class: "login" %></li>
+      <li><%= link_to '新規登録', class: "sign-up" %></li>
+   </ul>
+</header>
+
+<div class="main">
+
+</div>
+
+<div class="footer">
+</div>
